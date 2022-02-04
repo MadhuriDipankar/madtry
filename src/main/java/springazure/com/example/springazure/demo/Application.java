@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @SpringBootApplication
 public class Application {
-    @GetMapping("/message")
+    @GetMapping("/")
 	public String wish()
 	{
 		return "Congrats !!! Hello Madhuri from Spring ";
